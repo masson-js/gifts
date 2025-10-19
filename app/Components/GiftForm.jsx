@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { createGiftWish } from '@/app/actions/giftWish';
+import { createGiftWish } from '@/actions/giftWish';
 
 export function GiftForm() {
   const [formData, setFormData] = useState({
