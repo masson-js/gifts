@@ -1,4 +1,4 @@
-import { getGiftWishesByClass } from '@/actions/giftWish'
+import { getGiftWishesByClass } from '@/actions/test'
 
 export default async function AdminPage() {
   const result = await getGiftWishesByClass()
